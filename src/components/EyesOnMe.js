@@ -7,7 +7,7 @@ class EyesOnMe extends React.Component {
     return(
       <div>
         <button>
-          
+          <button onClick={this.tickle}>Tickle me!</button>
         </button>
       </div>
     );
